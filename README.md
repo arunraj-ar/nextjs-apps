@@ -1,2 +1,2 @@
 # nextjs-apps
-simple nextjs apps for learning
+simple nextjs apps for learning.
