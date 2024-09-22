@@ -8,7 +8,7 @@ const NavLink = (props) => {
   const { href, children } = props;
   const path = usePathname();
   return (
-    <Link href={href} className={path.startsWith(href) && classes.active}>
+    <Link href={href} className={path.startsWith(href) && `${classes.active} ${classes.link}`}>
       {children}
     </Link>
   );
