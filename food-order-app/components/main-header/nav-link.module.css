@@ -1,5 +1,5 @@
 
-.link a {
+.link  {
     text-decoration: none;
     color: #ddd6cb;
     font-weight: bold;
@@ -7,13 +7,13 @@
     border-radius: 0.5rem;
   }
   
-  .link a:hover,
-  .link a:active {
+  .link:hover,
+  .link:active {
     background: linear-gradient(90deg, #ff8a05, #f9b331);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
+    text-shadow: 0 0 2px rgba(246, 185, 32, 0.8);
   }
 
 .active {
