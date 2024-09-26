@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./page.module.css";
 import Link from "next/link";
+import MealsGrid from "@/components/meals/meals-grid";
 
 const MealsPage = () => {
   return (
@@ -18,7 +19,7 @@ const MealsPage = () => {
       </header>
 
       <main>
-        <h1 style={{ color: "white", textAlign: "center" }}> Meals Page </h1>
+        <MealsGrid meals={[]}/>
       </main>
     </>
   );
