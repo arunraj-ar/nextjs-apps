@@ -19,7 +19,7 @@ const MealsPage = () => {
       </header>
 
       <main>
-        <MealsGrid meals={[]}/>
+        <MealsGrid meals={[]} />
       </main>
     </>
   );
